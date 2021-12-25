@@ -1,6 +1,6 @@
 <?php 
     // Thiết lập tiêu đề tương ứng với từng trang
-    $pageTitle = "SignUp | Twitter";
+    $pageTitle = "SignUp / Twitter";
     // Lấy dữ liệu header từ tệp header
     include 'backend/shared/header.php';
     // Gọi tệp initialize

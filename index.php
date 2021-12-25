@@ -5,6 +5,10 @@ include 'backend/initialize.php';
 // Lấy dữ liệu header từ tệp header
 include 'backend/shared/header.php';
 
+if(isset($_POST['isLogout']) && $_POST['isLogout']) {
+    resetSESSIONFor('isLogginOK');
+}
+
 ?>
 <div class="wrapper">
     <div class="container-fluid first-page">
