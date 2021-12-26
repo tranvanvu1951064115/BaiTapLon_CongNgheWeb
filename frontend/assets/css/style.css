@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+   
+}
+.html{
+    font-size: 15px;
+}
+.main-page{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+    grid-template-rows: ifr min-content;
+}
+.bi-twitter{
+    height: 28px;
+    filter: invert(52%) sepia(21%) saturate(6332%) hue-rotate(179deg) brightness(99%) contrast(90%);
+      
+}
+
+.image{
+    height: 100%;
+    background: url(https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png)
+    center center/cover;
+    position: relative;
+}
+.big-bird{
+    width: 30% ;
+    transform: translate(200px,200px);
+    fill :#fff ;
+}
+
+.btn{
+    width: 300px;
+    background-color: #eee;
+    color: black;
+}
+.btn:hover{
+    text-align: center;
+    background-color: rgb(44, 128, 202);
+    text-decoration: none;
+}
+
+.sign_up_now{
+    font-style: normal;
+    background-color: #3294d4;
+    color: white;
+}
+.divider::after,
+.divider::before{
+    content: "";
+  flex: 1;
+  height: 1px;
+  background: rgb(218, 216, 216);
+}
+.footer{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    list-style: none; 
+}
+.footer li{
+    display: inline-block;
+    justify-content: center;
+    padding: 4px;
+    margin: 2px;
+   font-size: 13px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    text-align: center;
+}
+.note{
+    font-size: 13px;
+}
+.already{
+    font-size: 15px;
+}
+.signin:hover{
+    background-color: rgb(255, 255, 255);
+}
+.block_ad{
+    background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png);
+    background-size: 100%;
+
+
+}
