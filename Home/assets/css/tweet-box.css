@@ -1,0 +1,7 @@
+.tweet__del{
+    display: flex;
+    justify-content: flex-end;
+}
+.tweet__box{
+    padding: 20px 15px ;
+}
