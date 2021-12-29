@@ -3,5 +3,27 @@
     justify-content: flex-end;
 }
 .tweet__box{
-    padding: 20px 15px ;
+    padding: 20px 15px 20px 0;
+    border-bottom: 1px solid var(--twitter-background) ;
+    display: flex;
+
+}
+.tweet__body{
+    width: 100%;
+
+}
+.tweet__add{
+    border-bottom: 10px solid var(--twitter-background);
+}
+.tweet__hearder{
+    display: flex;
+    margin-bottom: 5px;
+
+}
+.tweet__name{
+    font-weight: 700;
+}
+.tweet__username, .tweet__date{
+    color: rgb(101,119,134);
+    font-size: 15px;
 }

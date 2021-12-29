@@ -1,8 +1,8 @@
 <?php
 
-$query = "SELECT * FROM posts ORDER BY post_is DESC";
+$query = "SELECT * FROM posts ORDER BY post_id DESC";
 $data = mysqli_query($con,$query);
-echo $data;
+// echo $data;
 while($row = mysqli_fetch_assoc($data)){
     $post_text = $row['post_text'];
     $post_date = $row['post_date'];
@@ -14,8 +14,8 @@ while($row = mysqli_fetch_assoc($data)){
     </div>
     <div class="tweet__body">
         <div class="tweet-header">
-            <p class="tweet__name">Code Addict</p>
-            <p class="tweet__username">@CodeAddict6</p>
+            <p class="tweet__name">Quang Hoang</p>
+            <p class="tweet__username">@MrHia</p>
             <p class="tweet__date"><?php echo $post_date = date('M d'); ?></p>
         </div>
         <p class="tweet_text"><?php echo $post_text; ?></p>
