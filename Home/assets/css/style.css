@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import url('tweet-box.css');
+@import url('left-sidebar.css');
+@import url('right-sidebar.css');
 
 :root{
     --twitter-color: #50b7f5;
@@ -33,7 +35,7 @@ textarea{
     border-right: 1px solid var(--twitter-background);
 
 }
-.gid-container{
+.grid_container{
     width: 100%;
     max-width: 1350px;
     margin: 0 auto;
@@ -45,7 +47,7 @@ textarea{
     
     "sidebar main right__sidebar ."
     "sidebar main right__sidebar ."
-    "sidebar main right__sidebar ."
+    "sidebar main right__sidebar ." ;           
 
 }
 .sidebar{grid-area: sidebar;}
