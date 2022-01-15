@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 // Thiết lập tiêu đề tương ứng với từng trang
 $pageTitle = "Notification / Twitter";
 
@@ -32,11 +32,11 @@ if(count($notifications) > 0) {
     $activeNotif = 'none';
 }
 
-echo "<script src='./frontend/assets/js/leftSideBar/active.js' type='module' defer></script>";
-echo "<script src='./frontend/assets/js/leftSideBar/popUpUserLogout.js' type='module' defer></script>";
-echo "<script src='./frontend/assets/js/home/navProfile.js' defer></script>";
-echo "<script src='./frontend/assets/js/home/app.js' type='module' defer></script>";
-echo "<script src='./frontend/assets/js/notification/navTweet.js' defer></script>";
+// echo "<script src='./frontend/assets/js/leftSideBar/active.js' type='module' defer></script>";
+// echo "<script src='./frontend/assets/js/leftSideBar/popUpUserLogout.js' type='module' defer></script>";
+// echo "<script src='./frontend/assets/js/home/navProfile.js' defer></script>";
+// echo "<script src='./frontend/assets/js/home/app.js' type='module' defer></script>";
+// echo "<script src='./frontend/assets/js/notification/navTweet.js' defer></script>";
 
 ?>
 <div class="wrapper">
@@ -125,4 +125,4 @@ echo "<script src='./frontend/assets/js/notification/navTweet.js' defer></script
 <?php
 // Thực hiện gọi footer
 include 'backend/shared/footer.php';
-?> -->
+?>
