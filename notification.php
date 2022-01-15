@@ -33,8 +33,8 @@ if(count($notifications) > 0) {
 }
 
 echo "<script src='./frontend/assets/js/leftSideBar/active.js' type='module' defer></script>";
-// echo "<script src='./frontend/assets/js/leftSideBar/popUpUserLogout.js' type='module' defer></script>";
-// echo "<script src='./frontend/assets/js/home/navProfile.js' defer></script>";
+echo "<script src='./frontend/assets/js/leftSideBar/popUpUserLogout.js' type='module' defer></script>";
+echo "<script src='./frontend/assets/js/home/navProfile.js' defer></script>";
 echo "<script src='./frontend/assets/js/home/app.js' type='module' defer></script>";
 echo "<script src='./frontend/assets/js/notification/navTweet.js' defer></script>";
 
