@@ -41,13 +41,13 @@ echo "<script src='./frontend/assets/js/home/app.js' type='module' defer></scrip
 // echo "<script src='./frontend/assets/js/home/navProfile.js' defer></script>";
 // echo "<script src='./frontend/assets/js/home/processDistImg.js' defer></script>";
 // echo "<script src='./frontend/assets/js/profile/profileSetUpPopUp.js' defer></script>";
-// echo "<script src='./backend/ajax/handleTweet.js' type='module' defer></script>";
-// echo "<script src='./backend/ajax/handleDelTweet.js' defer></script>";
-// echo "<script src='./backend/ajax/handleLoveTweet.js' defer></script>";
-echo "<script src='./backend/ajax/handleComment.js' defer></script>";
-echo "<script src='./backend/ajax/handleDisplayTweet.js' defer></script>";
-echo "<script src='./backend/ajax/handleFollow.js' defer></script>";
-?>
+// // echo "<script src='./backend/ajax/handleTweet.js' type='module' defer></script>";
+// // echo "<script src='./backend/ajax/handleDelTweet.js' defer></script>";
+// // echo "<script src='./backend/ajax/handleLoveTweet.js' defer></script>";
+// echo "<script src='./backend/ajax/handleComment.js' defer></script>";
+// echo "<script src='./backend/ajax/handleDisplayTweet.js' defer></script>";
+// echo "<script src='./backend/ajax/handleFollow.js' defer></script>";
+// ?>
 <div class="wrapper">
     <div class='overlay'></div>
     <div class="container">
