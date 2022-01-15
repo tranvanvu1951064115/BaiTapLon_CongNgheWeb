@@ -33,12 +33,12 @@ if(count($notifications) > 0) {
 // RESET SESSION
 unset($_SESSION['isExplore']);
 
-// echo "<script src='./frontend/assets/js/leftSideBar/active.js' type='module' defer></script>";
-// echo "<script src='./frontend/assets/js/leftSideBar/popUpUserLogout.js' type='module' defer></script>";
-// echo "<script src='./frontend/assets/js/home/processDisplayImageWhenUpload.js' defer></script>";
-// echo "<script src='./frontend/assets/js/home/app.js' type='module' defer></script>";
-// echo "<script src='./frontend/assets/js/home/handleReply.js' defer></script>";
-// echo "<script src='./frontend/assets/js/home/navProfile.js' defer></script>";
+echo "<script src='./frontend/assets/js/leftSideBar/active.js' type='module' defer></script>";
+echo "<script src='./frontend/assets/js/leftSideBar/popUpUserLogout.js' type='module' defer></script>";
+echo "<script src='./frontend/assets/js/home/processDisplayImageWhenUpload.js' defer></script>";
+echo "<script src='./frontend/assets/js/home/app.js' type='module' defer></script>";
+echo "<script src='./frontend/assets/js/home/handleReply.js' defer></script>";
+echo "<script src='./frontend/assets/js/home/navProfile.js' defer></script>";
 echo "<script src='./frontend/assets/js/home/processDistImg.js' defer></script>";
 echo "<script src='./frontend/assets/js/profile/profileSetUpPopUp.js' defer></script>";
 echo "<script src='./backend/ajax/handleTweet.js' type='module' defer></script>";
