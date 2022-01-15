@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // Thiết lập tiêu đề tương ứng với từng trang
 $pageTitle = "Notification / Twitter";
 
@@ -125,4 +125,4 @@ echo "<script src='./frontend/assets/js/notification/navTweet.js' defer></script
 <?php
 // Thực hiện gọi footer
 include 'backend/shared/footer.php';
-?>
+?> -->
