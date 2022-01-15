@@ -120,7 +120,7 @@ echo "<script src='./frontend/assets/js/notification/navTweet.js' defer></script
         </div>
 
     </div>
-<!-- </div> -->
+</div>
 
 <?php
 // Thực hiện gọi footer
