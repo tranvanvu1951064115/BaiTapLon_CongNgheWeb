@@ -35,7 +35,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
                     <a class="register-btn btn btn--primary" href="signUp">
                         Register by phone number or email
                     </a>
-                    <span class="mt-5 mb-3 fw-bold">Already have an account?</span>
+                   <!-- <span class="mt-5 mb-3 fw-bold">Already have an account?</span>-->
                     <a class="login-btn btn btn--secondary" href="login">
                         Login
                     </a>
