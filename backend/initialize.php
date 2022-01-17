@@ -4,7 +4,7 @@
     ob_start();
 
     // Thiết lập thời gian timezone mặc định cho việc đẩy dữ liệu kiểu thời gian chính xác theo khu vực lên server
-   // date_default_timezone_set("Asia/Ho_Chi_Minh");
+   date_default_timezone_set("Asia/Ho_Chi_Minh");
 
     // Thiết lập phiên người dùng
     session_start();
