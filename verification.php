@@ -26,7 +26,7 @@
             $_SESSION['userSubmited'] = $user_id;
         }
         // Tạo ra liên kết để xác thực người dùng
-        $link = generateLink();
+       // $link = generateLink();
 
         // GỬI MAIL XÁC THỰC
         // Tạo ra message để gửi tới người dùng
