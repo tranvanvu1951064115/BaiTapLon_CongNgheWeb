@@ -19,7 +19,7 @@
             $sql = "SELECT * FROM tb_users WHERE user_email = ? OR user_userName = ?";
             $stmt = $conn -> prepare($sql);
             $stmt->bindParam(1, $_GET['userOrEmail'], PDO::PARAM_STR);
-           // $stmt->bindParam(2, $_GET['userOrEmail'], PDO::PARAM_STR);
+            $stmt->bindParam(2, $_GET['userOrEmail'], PDO::PARAM_STR);
             $stmt->execute();
             $user = $stmt->fetch(PDO::FETCH_OBJ);
             $user_id = $user->user_id;
