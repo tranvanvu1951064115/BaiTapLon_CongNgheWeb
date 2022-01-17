@@ -39,7 +39,7 @@
         // THÊM USER VÀO BẢNG VERIFICATION
         // Thêm thông tin người dùng đã xác thực vào bảng trong csdl
         insert("tb_verification", ['user_id' => $user_id, 'code' => $link]);
-    } //else {
+    } else {
         // Nếu không có biến userSubmited thì tức là người dùng chưa được chèn vào trong bảng USER 
         // Khi đó sẽ trực tiếp quay trở lại trang index
         header("location: index.php");
