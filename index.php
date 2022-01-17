@@ -13,7 +13,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
 <div class="wrapper">
     <div class="container-fluid first-page">
         <div class="row first-page__main">
-            <div class="col col-md-6 first-page__left">
+            <!--<div class="col col-md-6 first-page__left">-->
                 <img class="first-page__main-img" src="frontend/assets/image/main.png" alt="Main Image">
                 <div class="first-page__logo">
                     <svg viewBox="0 0 24 24" aria-hidden="true" class="r-jwli3a r-4qtqp9 r-yyyyoo r-rxcuwo r-1777fci r-m327ed r-dnmrzs r-494qqr r-bnwqim r-1plcrui r-lrvibr">
