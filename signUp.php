@@ -42,10 +42,10 @@
                         <label for="confirmPassword">Confirm Password</label>
                         <input type="password" name="confirm-password" id="confirmPassword" placeholder="Confirm Password" required autocomplete="off">
                     </div>
-                    <div class="form-show-password">
+                   <!-- <div class="form-show-password">
                         <input type="checkbox" name="showPassword" id="showPassword">
                         <label for="showPassword">Show Password</label>
-                    </div>
+                    </div> -->
                     <div class="form-btn-wrapper">
                         <input type="checkbox" name="remember" id="check">
                         <label for="check">Remember me</label>
