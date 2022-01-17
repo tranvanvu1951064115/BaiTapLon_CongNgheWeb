@@ -1,5 +1,5 @@
 const dataSignUp = localStorage.getItem("localSignUp");
-//if(dataSignUp) {
+if(dataSignUp) {
     const rememberBtn = document.querySelector('#check[name="remember"]');
     rememberBtn.checked = true;
     
@@ -8,4 +8,4 @@ const dataSignUp = localStorage.getItem("localSignUp");
     arrInput.forEach(input => {
         formSign.querySelector(`input[name = "${input.name}"]`).value = input.value;
     });
-//}
+}
