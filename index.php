@@ -61,7 +61,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
                 <li class="me-4"><a class="lh-lg" href="#">Category</a></li>
                 <li class="me-4"><a class="lh-lg" href="#">Setting</a></li>
             </ul>
-           <!-- <span class="copyright">© 2021 Twitter, Inc.</span> -->
+            <span class="copyright">© 2021 Twitter, Inc.</span> -->
         </div>
     </div>
 </div>
