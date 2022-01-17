@@ -50,7 +50,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
                 <li class="me-4"><a class="lh-lg" href="#">Privacy Policy</a></li>
                 <li class="me-4"><a class="lh-lg" href="#">Cookie Policy</a></li>
                 <li class="me-4"><a class="lh-lg" href="#">Advertising information</a></li>
-                <li class="me-4"><a class="lh-lg" href="#">Blog</a></li>
+               <!-- <li class="me-4"><a class="lh-lg" href="#">Blog</a></li>
                 <li class="me-4"><a class="lh-lg" href="#">Status</a></li>
                 <li class="me-4"><a class="lh-lg" href="#">Job</a></li>
                 <li class="me-4"><a class="lh-lg" href="#">Brand Resources</a></li>

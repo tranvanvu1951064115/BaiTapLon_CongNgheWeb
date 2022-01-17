@@ -52,7 +52,7 @@ html,body{
   height: 1px;
   background: rgb(218, 216, 216);
 }
-.footer{
+<.footer{
     grid-column: 1/-1;
     grid-row: 2/3;
     list-style: none; 
