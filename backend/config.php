@@ -23,5 +23,5 @@
     // Định nghĩa kiểu bảo mật của giao thức SMTP
     define("M_SMTPSECURE", "tls");
     // Cổng kết nối
-    //define("M_PORT",587);
+    define("M_PORT",587);
 ?>
