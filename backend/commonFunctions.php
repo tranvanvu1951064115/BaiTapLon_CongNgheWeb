@@ -1,6 +1,6 @@
 <?php 
     // Khởi tạo hàm loại bỏ kí tự đặc biệt
-    function removeSpecialCharacters($string) {
+    //function removeSpecialCharacters($string) {
         return htmlspecialchars($string);
     }
 
