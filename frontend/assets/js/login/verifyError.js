@@ -1,4 +1,4 @@
-//import {$, $$, loginInput} from '../variables.js';
+import {$, $$, loginInput} from '../variables.js';
 const  formTitle = $('.login .form-title');
 formTitle.querySelector('a.errorEmail').innerHTML = "Please verify your information before logging in";
 // [...loginInput].forEach(input => {
