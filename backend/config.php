@@ -15,7 +15,7 @@
 
     // DEFINE SMTP
     // Định nghĩa host cho việc gửi email: yahoo, gmail, outlook ,...
-    define("M_HOST", "smtp.gmail.com");
+   // define("M_HOST", "smtp.gmail.com");
     // Định nghĩa user gửi đến người dùng
     define("M_USERNAME", "wilsonkylerkl@gmail.com");
     // Mật khẩu ứng dụng
