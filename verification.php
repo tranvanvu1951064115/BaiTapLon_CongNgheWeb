@@ -79,7 +79,7 @@
         <?php include 'backend/shared/formNav.php';?>
         <!-- FORM SECTION -->
         <div class="form-wrapper">
-            <div class="form-content text-center">
+            <!--<div class="form-content text-center">
                 <?php 
                     if(isset($_GET['verify']) || !empty($_GET['verify'])) {
                         if(isset($errors['verify'])) {
