@@ -30,7 +30,8 @@
 
         // GỬI MAIL XÁC THỰC
         // Tạo ra message để gửi tới người dùng
-        $message = "{$user->user_firstName}, Your account has been created, Please visit this link to verify your email <a href='http://localhost/twitter/verification/$link'>Verify link </>";
+        print_r($_SERVER);
+        $message = "{$user->user_firstName}, Your account has been created, Please visit this link to verify your email <a href={$_SERVER['PHP_SELF']}/$link'>Verify link </>";
         // Tạo ra tiêu đề gửi tới người dùng xác thực
         $subject = "[TWITTER] Please verify your account";
         // Gửi tới người dùng để xác thực

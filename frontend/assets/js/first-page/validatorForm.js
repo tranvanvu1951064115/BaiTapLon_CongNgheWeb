@@ -125,6 +125,21 @@ export const validator = {
       if (this.setErrorMessage()) {
         e.preventDefault();
       } else {
+        const rememberBtn = document.querySelector('#check[name="remember"]');
+        const formSign = document.querySelector('.form-signup-main');
+        if(rememberBtn.checked) {
+          let arrInput = [];
+          [...formSign.querySelectorAll('input:not(input[type="checkbox"])')].forEach(input => {
+              arrInput.push({
+                name: input.name,
+                value: input.value
+              })
+          })
+          arrInput = JSON.stringify(arrInput);
+          localStorage.setItem("localSignUp", arrInput);
+        } else {
+          localStorage.removeItem("localSignUp");
+        }
         e.submit();
       }
     });

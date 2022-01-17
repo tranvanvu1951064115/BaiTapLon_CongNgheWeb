@@ -13,7 +13,7 @@
                 // KIỂM TRA THÔNG TIN MẬT KHẨU NGƯỜI DÙNG NHẬP VÀO
                 if(password_verify($_POST['password'], $user['user_password'])) { // CHÍNH XÁC
                     $_SESSION['isLogginOK'] = $user['user_id'];
-                    redirect_to(url_for("home"));
+                    header("location: home.php");
                 } else { // CHƯA CHÍNH XÁC
                     echo "<script src='frontend/assets/js/login/passwordError.js' type='module' defer></script>";
                 }

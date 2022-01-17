@@ -12,10 +12,10 @@
     $public_end = strpos($_SERVER['SCRIPT_NAME'], '/frontend') + 9;
     $doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
     define("WWW_ROOT", $doc_root);
-
+    
     // DEFINE SMTP
     // Định nghĩa host cho việc gửi email: yahoo, gmail, outlook ,...
-   define("M_HOST", "smtp.gmail.com");
+    define("M_HOST", "smtp.gmail.com");
     // Định nghĩa user gửi đến người dùng
     define("M_USERNAME", "wilsonkylerkl@gmail.com");
     // Mật khẩu ứng dụng

@@ -45,7 +45,7 @@
                     <div class="form-show-password">
                         <input type="checkbox" name="showPassword" id="showPassword">
                         <label for="showPassword">Show Password</label>
-                    </div> 
+                    </div>
                     <div class="form-btn-wrapper">
                         <input type="checkbox" name="remember" id="check">
                         <label for="check">Remember me</label>
@@ -59,6 +59,6 @@
         </div>
     </section>
     <script src="frontend/assets/js/first-page/app.js" type="module"></script>
-   <script src="frontend/assets/js/first-page/showPassword.js"></script>
+    <script src="frontend/assets/js/first-page/showPassword.js"></script>
 </body>
 </html>

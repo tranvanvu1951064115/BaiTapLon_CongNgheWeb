@@ -23,7 +23,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
                     </svg>
                 </div>
             </div>
-           <div class="col col-md-6 first-page__right"> 
+            <div class="col col-md-6 first-page__right">
                 <div class="first-page__sub-logo">
                     <i class="fab fa-twitter"></i>
                 </div>
@@ -35,7 +35,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
                     <a class="register-btn btn btn--primary" href="signUp">
                         Register by phone number or email
                     </a>
-                   <span class="mt-5 mb-3 fw-bold">Already have an account?</span>
+                    <span class="mt-5 mb-3 fw-bold">Already have an account?</span>
                     <a class="login-btn btn btn--secondary" href="login">
                         Login
                     </a>
@@ -61,7 +61,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
                 <li class="me-4"><a class="lh-lg" href="#">Category</a></li>
                 <li class="me-4"><a class="lh-lg" href="#">Setting</a></li>
             </ul>
-            <span class="copyright">© 2021 Twitter, Inc.</span> 
+            <span class="copyright">© 2021 Twitter, Inc.</span>
         </div>
     </div>
 </div>

@@ -26,7 +26,7 @@
                 //     $_SESSION['remember'] = $_POST['remember'];// if on is user checked
                 // }
                 // Chuyển hướng tới trang xác thực
-                redirect_to(url_for("verification"));
+                header("location: verification.php");
             }
         }
     }
