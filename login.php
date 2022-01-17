@@ -37,11 +37,11 @@
                         <input type="checkbox" name="showPassword" id="showPassword">
                         <label for="showPassword">Show Password</label>
                     </div>
-                    <!-- <div class="form-btn-wrapper">
+                    <div class="form-btn-wrapper">
                         <input type="checkbox" name="remember" id="check">
                         <label for="check">Remember me</label>
                         <button name="buttonLogin" value="login" class="form-btn btn btn-primary" type="submit">Login</button>
-                    </div> -->
+                    </div>
                 </form>
                 <footer class="form-footer">
                     <p>New to twitter ?<a href="signUp">Sign Up to Twitter</a></p>
