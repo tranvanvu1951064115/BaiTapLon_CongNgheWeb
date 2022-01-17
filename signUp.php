@@ -59,6 +59,6 @@
         </div>
     </section>
     <script src="frontend/assets/js/first-page/app.js" type="module"></script>
-   <!-- <script src="frontend/assets/js/first-page/showPassword.js"></script>
+   <!-- <script src="frontend/assets/js/first-page/showPassword.js"></script>-->
 </body>
 </html>
