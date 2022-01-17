@@ -23,7 +23,7 @@ if(isset($_POST['isLogout']) && $_POST['isLogout']) {
                     </svg>
                 </div>
             </div>
-           <!--<div class="col col-md-6 first-page__right"> -->
+           <div class="col col-md-6 first-page__right"> 
                 <div class="first-page__sub-logo">
                     <i class="fab fa-twitter"></i>
                 </div>
