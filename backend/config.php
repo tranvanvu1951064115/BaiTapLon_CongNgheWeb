@@ -12,6 +12,8 @@
     $public_end = strpos($_SERVER['SCRIPT_NAME'], '/frontend') + 9;
     $doc_root = substr($_SERVER['SCRIPT_NAME'], 0, $public_end);
     define("WWW_ROOT", $doc_root);
+    $server = explode('/', $_SERVER['SCRIPT_NAME'])[1];
+
     
     // DEFINE SMTP
     // Định nghĩa host cho việc gửi email: yahoo, gmail, outlook ,...

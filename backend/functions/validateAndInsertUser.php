@@ -2,7 +2,7 @@
     // Hàm đăng kí tài khoản cho người dùng
     function register($firstName, $lastName, $userName, $email, $password, $confirmPassword) {
         if(checkEmailInUse($email)) {
-            header("location: signUp.php?errorEmail=Email in use");
+            redirect_to(url_for("signUp.php?errorEmail=Email in use"));
         } else {
             return insertUser($firstName, $lastName, $userName, $email, $password);
         }
